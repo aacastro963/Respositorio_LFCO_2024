@@ -59,4 +59,5 @@ test_cadenas = ["", "0", "1", "10", "101", "1010", "1001", "1100", "000", "111"]
 
 for cadena_unica in test_cadenas:
     resultado = automata_dfa.aceptacion(cadena_unica)
+    print("prueba git")
     print(f'La cadena "{cadena_unica}" es aceptada por el automata determinístico: {resultado}')
